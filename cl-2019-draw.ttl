@@ -1,0 +1,89 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://live.dbpedia.org/ontology/>
+
+<http://live.dbpedia.org/resource/Liverpool_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" ; dbo:league <http://live.dbpedia.org/resource/Premier_League>.
+
+<http://live.dbpedia.org/resource/Chelsea_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" ; dbo:league <http://live.dbpedia.org/resource/Premier_League>.
+
+<http://live.dbpedia.org/resource/FC_Barcelona> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" .
+
+<http://live.dbpedia.org/resource/Manchester_City_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" ; dbo:league <http://live.dbpedia.org/resource/Premier_League>.
+
+<http://live.dbpedia.org/resource/Juventus_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" ; dbo:league <http://live.dbpedia.org/resource/Serie_A>.
+
+<http://live.dbpedia.org/resource/FC_Bayern_Munich> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" .
+
+<http://live.dbpedia.org/resource/Paris_Saint-Germain_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" .
+
+<http://live.dbpedia.org/resource/FC_Zenit_Saint_Petersburg> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "1" .
+
+<http://live.dbpedia.org/resource/Real_Madrid_CF> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" .
+
+<http://live.dbpedia.org/resource/Atl%C3%A9tico_Madrid> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" ; dbo:league <http://live.dbpedia.org/resource/La_Liga>.
+
+<http://live.dbpedia.org/resource/Borussia_Dortmund> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" .
+
+<http://live.dbpedia.org/resource/S.S.C._Napoli> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" ; dbo:league <http://live.dbpedia.org/resource/Serie_A>.
+
+<http://live.dbpedia.org/resource/FC_Shakhtar_Donetsk> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" .
+
+<http://live.dbpedia.org/resource/Tottenham_Hotspur_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" ; dbo:league <http://live.dbpedia.org/resource/Premier_League>.
+
+<http://live.dbpedia.org/resource/S.L._Benfica> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "2" .
+
+<http://live.dbpedia.org/resource/Olympique_Lyonnais> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" .
+
+<http://live.dbpedia.org/resource/Bayer_04_Leverkusen> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" .
+
+<http://live.dbpedia.org/resource/FC_Red_Bull_Salzburg> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" .
+
+<http://live.dbpedia.org/resource/Olympiacos_F.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" ; dbo:league <http://live.dbpedia.org/resource/Superleague_Greece>.
+
+<http://live.dbpedia.org/resource/Valencia_CF> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" .
+
+<http://live.dbpedia.org/resource/Inter_Milan> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" ; dbo:league <http://live.dbpedia.org/resource/Serie_A>.
+
+<http://live.dbpedia.org/resource/GNK_Dinamo_Zagreb> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "3" .
+
+<http://live.dbpedia.org/resource/K.R.C._Genk> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "4" .
+
+<http://live.dbpedia.org/resource/Galatasaray_S.K._(football)> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "4" ; dbo:league <live.dbpedia.org/resource/Süper_Lig>.
+
+<http://live.dbpedia.org/resource/RB_Leipzig> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "4" .
+
+<http://live.dbpedia.org/resource/Red_Star_Belgrade> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "4" .
+
+<http://live.dbpedia.org/resource/Atalanta_B.C.> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "4" ; dbo:league <http://live.dbpedia.org/resource/Serie_A>.
+
+<http://live.dbpedia.org/resource/Lille_OSC> a <#ChampionsLeague2019Team> ;
+	<#hasGroup> "4" .
