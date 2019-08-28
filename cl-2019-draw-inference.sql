@@ -98,6 +98,6 @@ SELECT ?team
 #FROM <demo:inference:aggregates>
 WHERE 
 {
-<http://live.dbpedia.org/resource/Liverpool_F.C.> :canPlay ?team.
+<http://live.dbpedia.org/resource/Liverpool_F.C.> a <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team>; :canPlay ?team.
 };
 
