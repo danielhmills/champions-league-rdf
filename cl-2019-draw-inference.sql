@@ -7,9 +7,9 @@ SPARQL ALTER QUAD STORAGE virtrdf:DefaultQuadStorage { DETACH MACRO LIBRARY <spi
 --Test Query
 
 SPARQL
-#DEFINE get:soft "replace"
-#DEFINE input:grab-var "?team"
-#DEFINE input:grab-depth 1
+DEFINE get:soft "replace"
+DEFINE input:grab-var "?team"
+DEFINE input:grab-depth 1
 
 SELECT DISTINCT 
     ?s 
