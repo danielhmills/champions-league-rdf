@@ -6,129 +6,129 @@
 
 
 <#http://live.dbpedia.org/resource/Liverpool_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
 
 <#http://live.dbpedia.org/resource/Chelsea_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
 
 <#http://live.dbpedia.org/resource/FC_Barcelona> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
 
 <#http://live.dbpedia.org/resource/Manchester_City_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
 
 <#http://live.dbpedia.org/resource/Juventus_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
 
 <#http://live.dbpedia.org/resource/FC_Bayern_Munich> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
 
 <#http://live.dbpedia.org/resource/Paris_Saint-Germain_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Ligue_1> .
 
 <#http://live.dbpedia.org/resource/FC_Zenit_Saint_Petersburg> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "1.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Russian_Football_Premier_League> .
 
 <#http://live.dbpedia.org/resource/Real_Madrid_CF> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
 
 <#http://live.dbpedia.org/resource/Atl%C3%A9tico_Madrid> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
 
 <#http://live.dbpedia.org/resource/Borussia_Dortmund> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
 
 <#http://live.dbpedia.org/resource/S.S.C._Napoli> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
 
 <#http://live.dbpedia.org/resource/FC_Shakhtar_Donetsk> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Ukranian_Premier_League> .
 
 <#http://live.dbpedia.org/resource/Tottenham_Hotspur_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
 
 <#http://live.dbpedia.org/resource/AFC_Ajax> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Eredivisie> .
 
 <#http://live.dbpedia.org/resource/S.L._Benfica> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "2.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Primera_Liga> .
 
 <#http://live.dbpedia.org/resource/Olympique_Lyonnais> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Ligue_1> .
 
 <#http://live.dbpedia.org/resource/Bayer_04_Leverkusen> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
 
 <#http://live.dbpedia.org/resource/FC_Red_Bull_Salzburg> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
 
 <#http://live.dbpedia.org/resource/Olympiacos_F.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Superleague_Greece> .
 
 <#http://live.dbpedia.org/resource/Club_Brugge_KV> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Club_Brugge_KV> .
 
 <#http://live.dbpedia.org/resource/Valencia_CF> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
 
 <#http://live.dbpedia.org/resource/Inter_Milan> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
 
 <#http://live.dbpedia.org/resource/GNK_Dinamo_Zagreb> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "3.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Croatian_First_Football_League> .
 
 <#http://live.dbpedia.org/resource/FC_Lokomotiv_Moscow> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Russian_Football_Premier_League> .
 
 <#http://live.dbpedia.org/resource/K.R.C._Genk> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Belgian_First_Division_A> .
 
 <#http://live.dbpedia.org/resource/Galatasaray_S.K._(football)> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Super_Lig> .
 
 <#http://live.dbpedia.org/resource/RB_Leipzig> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
 
 <#http://live.dbpedia.org/resource/SK_Slavia_Prague> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Czech_First_League> .
 
 <#http://live.dbpedia.org/resource/Red_Star_Belgrade> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Serbian_SuperLiga> .
 
 <#http://live.dbpedia.org/resource/Atalanta_B.C.> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
 
 <#http://live.dbpedia.org/resource/Lille_OSC> a <#ChampionsLeague2019Team> ;
-	<#hasGroup> "4.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<#hasGroup> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	dbo:league <http://live.dbpedia.org/resource/Ligue_1> .
