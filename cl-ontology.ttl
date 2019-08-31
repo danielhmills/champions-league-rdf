@@ -1,0 +1,63 @@
+@PREFIX : <#>.
+
+:hasGroup
+a rdf:Property;
+rdfs:label "hasGroup";
+rdfs:subPropertyOf schema:memberOf.
+
+:countryCode
+a rdf:Property;
+rdfs:label "countryCode".
+
+:id
+a rdf:Property;
+rdfs:label "id".
+
+:lastRound
+a rdf:Property;
+rdfs:label "lastRound".
+
+:seasonYear
+a rdf:Property;
+rdfs:label "seasonYear".
+
+:teamCode
+a rdf:Property;
+rdfs:label "teamCode".
+
+:Group
+a rdfs:Class;
+rdfs:label "UEFA Champion's League Group (Group Stage)";
+rdfs:subClassOf schema:Organization.
+
+<https://www.uefa.com/uefachampionsleague/group=1959/#group>
+a :Group;
+rdfs:Label "Group A".
+
+<https://www.uefa.com/uefachampionsleague/group=1960/#group>
+a :Group;
+rdfs:Label "Group B".
+
+<https://www.uefa.com/uefachampionsleague/group=1961/#group>
+a :Group;
+rdfs:Label "Group C".
+
+<https://www.uefa.com/uefachampionsleague/group=1962/#group>
+a :Group;
+rdfs:Label "Group D".
+
+<https://www.uefa.com/uefachampionsleague/group=1963/#group>
+a :Group;
+rdfs:Label "Group E".
+
+<https://www.uefa.com/uefachampionsleague/group=1964/#group>
+a :Group;
+rdfs:Label "Group F".
+
+<https://www.uefa.com/uefachampionsleague/group=1965/#group>
+a :Group;
+rdfs:Label "Group G".
+
+<https://www.uefa.com/uefachampionsleague/group=1966/#group>
+a :Group;
+rdfs:Label "Group H".
