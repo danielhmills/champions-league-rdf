@@ -1,4 +1,4 @@
-@PREFIX : <#>.
+@prefix : <#>.
 
 :hasGroup
 a rdf:Property;
