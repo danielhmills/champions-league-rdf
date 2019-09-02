@@ -5,7 +5,7 @@ a rdf:Property;
 rdfs:label "hasGroup";
 rdfs:subPropertyOf schema:memberOf.
 
-:inPot a rdf:Property
+:inPot a rdf:Property;
 rdfs:label "inPot";
 rdfs:subPropertyOf schema:memberOf.
 
@@ -35,7 +35,7 @@ rdfs:label "UEFA Champion's League Group (Group Stage)";
 rdfs:subClassOf schema:Organization.
 
 :Pot
-a rdfs:Clas;
+a rdfs:Class;
 rdfs:label "UEFA Champions League Pot";
 rdfs:subClassOf schema:Organization.
 
