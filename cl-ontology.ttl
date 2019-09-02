@@ -5,6 +5,10 @@ a rdf:Property;
 rdfs:label "hasGroup";
 rdfs:subPropertyOf schema:memberOf.
 
+:inPot a rdf:Property
+rdfs:label "inPot";
+rdfs:subPropertyOf schema:memberOf.
+
 :countryCode
 a rdf:Property;
 rdfs:label "countryCode".
@@ -28,6 +32,11 @@ rdfs:label "teamCode".
 :Group
 a rdfs:Class;
 rdfs:label "UEFA Champion's League Group (Group Stage)";
+rdfs:subClassOf schema:Organization.
+
+:Pot
+a rdfs:Clas;
+rdfs:label "UEFA Champions League Pot";
 rdfs:subClassOf schema:Organization.
 
 <https://www.uefa.com/uefachampionsleague/group=1959/#group>
