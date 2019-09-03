@@ -1,0 +1,69 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50143/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1966/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52816/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1961/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50124/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1962/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50109/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1962/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52758/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1964/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52914/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1966/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50043/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1959/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50080/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1964/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50037/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1960/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=53065/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1962/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50030/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1963/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52707/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1961/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52826/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1965/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50067/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1959/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50164/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1961/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50138/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1964/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50139/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1962/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=61582/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1963/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=75797/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1966/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=7889/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1963/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52919/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1961/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2610/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1960/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=5312/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1965/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52747/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1959/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2603790/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1965/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50051/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1959/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50069/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1960/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50147/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1965/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50136/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1963/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52498/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1964/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=1652/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1960/#group> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52268/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#hasGroup> <https://www.uefa.com/uefachampionsleague/group=1966/#group> .

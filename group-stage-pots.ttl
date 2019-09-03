@@ -1,0 +1,82 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cl: <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Pot> ;
+	rdfs:label "Pot 2" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50143/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Pot> ;
+	rdfs:label "Pot 4" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52816/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50124/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Pot> ;
+	rdfs:label "Pot 3" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50109/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52758/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Pot> ;
+	rdfs:label "Pot 1" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52914/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50043/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50080/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50037/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=53065/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50030/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52707/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52826/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50067/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50164/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50138/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50139/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=61582/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=75797/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=7889/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52919/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2610/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=5312/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52747/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#1> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2603790/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50051/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50069/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50147/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50136/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52498/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#4> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=1652/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52268/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#inPot> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#3> .
