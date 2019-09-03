@@ -1,0 +1,988 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo: <http://live.dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52341/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52341.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SWE" ;
+	dbo:country <http://live.dbpedia.org/resource/Sweden> ;
+	foaf:nick "AIK" ;
+	rdfs:label "AIK" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52341" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52341.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "Second qualifying round" ;
+	foaf:nick "2QR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52341/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "AIK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50143/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50143.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "NED" ;
+	dbo:country <http://live.dbpedia.org/resource/Netherlands> ;
+	foaf:nick "Ajax" ;
+	rdfs:label "AFC Ajax" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50143" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50143.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "Group stage" ;
+	foaf:nick "GS" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50143/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "AJX" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50118/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50118.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "CYP" ;
+	dbo:country <http://live.dbpedia.org/resource/Cyprus> ;
+	foaf:nick "APOEL" ;
+	rdfs:label "APOEL FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50118" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50118.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "Play-offs" ;
+	foaf:nick "PO" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50118/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "APO" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2610304/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2610304.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ARM" ;
+	dbo:country <http://live.dbpedia.org/resource/Armenia> ;
+	foaf:nick "Ararat-Armenia" ;
+	rdfs:label "Ararat-Armenia FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2610304" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2610304.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "First qualifying round" ;
+	foaf:nick "1QR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2610304/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2600605/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2600605.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "KAZ" ;
+	dbo:country <http://live.dbpedia.org/resource/Kazakhstan> ;
+	foaf:nick "Astana" ;
+	rdfs:label "FC Astana" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2600605" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2600605.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "AST" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52816/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52816.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ITA" ;
+	dbo:country <http://live.dbpedia.org/resource/Italy> ;
+	foaf:nick "Atalanta" ;
+	rdfs:label "Atalanta BC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52816" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52816.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "ATA" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50124/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50124.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ESP" ;
+	dbo:country <http://live.dbpedia.org/resource/Spain> ;
+	foaf:nick "AtlÃ©tico" ;
+	rdfs:label "Club AtlÃ©tico de Madrid" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50124" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "ATL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50080/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50080.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ESP" ;
+	dbo:country <http://live.dbpedia.org/resource/Spain> ;
+	foaf:nick "Barcelona" ;
+	rdfs:label "FC Barcelona" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50080" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50080.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BAR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=59856/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/59856.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SUI" ;
+	dbo:country <http://live.dbpedia.org/resource/Switzerland> ;
+	foaf:nick "Basel" ;
+	rdfs:label "FC Basel 1893" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "59856" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/59856.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "Third qualifying round" ;
+	foaf:nick "3QR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=59856/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BSL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=66168/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/66168.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "BLR" ;
+	dbo:country <http://live.dbpedia.org/resource/Belarus> ;
+	foaf:nick "BATE" ;
+	rdfs:label "FC BATE Borisov" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "66168" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/66168.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BTE" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50037/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50037.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GER" ;
+	dbo:country <http://live.dbpedia.org/resource/Germany> ;
+	foaf:nick "Bayern" ;
+	rdfs:label "FC Bayern Mï¿½ï¿½nchen" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50037" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50037.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BAY" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50147/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50147.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "POR" ;
+	dbo:country <http://live.dbpedia.org/resource/Portugal> ;
+	foaf:nick "Benfica" ;
+	rdfs:label "SL Benfica" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50147" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50147.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SLB" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50050/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50050.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SCO" ;
+	dbo:country <http://live.dbpedia.org/resource/Scotland> ;
+	foaf:nick "Celtic" ;
+	rdfs:label "Celtic FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50050" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50050.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "CEL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=88131/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/88131.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ROU" ;
+	dbo:country <http://live.dbpedia.org/resource/Romania> ;
+	foaf:nick "CFR Cluj" ;
+	rdfs:label "CFR 1907 Cluj" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "88131" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/88131.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "CFR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52914/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52914.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ENG" ;
+	dbo:country <http://live.dbpedia.org/resource/England> ;
+	foaf:nick "Chelsea" ;
+	rdfs:label "Chelsea FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52914" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52914.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "CHE" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50043/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50043.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "BEL" ;
+	dbo:country <http://live.dbpedia.org/resource/Belgium> ;
+	foaf:nick "Club Brugge" ;
+	rdfs:label "Club Brugge" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50043" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50043.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BRU" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50069/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50069.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SRB" ;
+	dbo:country <http://live.dbpedia.org/resource/Serbia> ;
+	foaf:nick "Crvena zvezda" ;
+	rdfs:label "FK Crvena zvezda" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50069" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50069.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "CRV" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50164/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50164.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "CRO" ;
+	dbo:country <http://live.dbpedia.org/resource/Croatia> ;
+	foaf:nick "Dinamo Zagreb" ;
+	rdfs:label "GNK Dinamo Zagreb" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50164" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50164.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "DZ" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52758/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52758.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GER" ;
+	dbo:country <http://live.dbpedia.org/resource/Germany> ;
+	foaf:nick "Dortmund" ;
+	rdfs:label "Borussia Dortmund" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52758" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52758.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BVB" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=59028/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/59028.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "LUX" ;
+	dbo:country <http://live.dbpedia.org/resource/Luxembourg> ;
+	foaf:nick "Dudelange" ;
+	rdfs:label "F91 Dudelange" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "59028" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/59028.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "DUD" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50055/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50055.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "IRL" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FRepublic+of+Ireland> ;
+	foaf:nick "Dundalk" ;
+	rdfs:label "Dundalk FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50055" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50055.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "DUN" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52723/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52723.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "UKR" ;
+	dbo:country <http://live.dbpedia.org/resource/Ukraine> ;
+	foaf:nick "Dynamo Kyiv" ;
+	rdfs:label "FC Dynamo Kyiv" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52723" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52723.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "DK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=62180/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/62180.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "AND" ;
+	dbo:country <http://live.dbpedia.org/resource/Andorra> ;
+	foaf:nick "FC Santa Coloma" ;
+	rdfs:label "FC Santa Coloma" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "62180" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/62180.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001135> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "Preliminary Round" ;
+	foaf:nick "PR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=62180/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001135> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SAN" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52298/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52298.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "HUN" ;
+	dbo:country <http://live.dbpedia.org/resource/Hungary> ;
+	foaf:nick "Ferencvï¿½ï¿½ros" ;
+	rdfs:label "Ferencvï¿½ï¿½rosi TC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52298" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52298.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "FER" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2608281/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2608281.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "KOS" ;
+	dbo:country <http://live.dbpedia.org/resource/Kosovo> ;
+	foaf:nick "Feronikeli" ;
+	rdfs:label "KF Feronikeli" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2608281" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2608281.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "FER" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2600288/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2600288.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "TUR" ;
+	dbo:country <http://live.dbpedia.org/resource/Turkey> ;
+	foaf:nick "ï¿½ï¿½stanbul Baï¿½ï¿½akï¿½ï¿½ehir" ;
+	rdfs:label "ï¿½ï¿½stanbul Baï¿½ï¿½akï¿½ï¿½ehir" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2600288" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2600288.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50067/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50067.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "TUR" ;
+	dbo:country <http://live.dbpedia.org/resource/Turkey> ;
+	foaf:nick "Galatasaray" ;
+	rdfs:label "Galatasaray Aï¿½ï¿½" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50067" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "GAL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=61582/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/61582.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "BEL" ;
+	dbo:country <http://live.dbpedia.org/resource/Belgium> ;
+	foaf:nick "Genk" ;
+	rdfs:label "KRC Genk" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "61582" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/61582.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "GNK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=59025/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/59025.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "FRO" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FFaroe+Islands> ;
+	foaf:nick "HB" ;
+	rdfs:label "HB Tï¿½ï¿½rshavn" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "59025" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/59025.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "HB" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50052/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50052.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "FIN" ;
+	dbo:country <http://live.dbpedia.org/resource/Finland> ;
+	foaf:nick "HJK" ;
+	rdfs:label "HJK Helsinki" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50052" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50052.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "HJK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50138/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50138.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ITA" ;
+	dbo:country <http://live.dbpedia.org/resource/Italy> ;
+	foaf:nick "Internazionale" ;
+	rdfs:label "FC Internazionale Milano" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50138" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50138.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "INT" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50139/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50139.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ITA" ;
+	dbo:country <http://live.dbpedia.org/resource/Italy> ;
+	foaf:nick "Juventus" ;
+	rdfs:label "Juventus" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50139" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50139.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "JUV" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52709/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52709.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "DEN" ;
+	dbo:country <http://live.dbpedia.org/resource/Denmark> ;
+	foaf:nick "Kï¿½ï¿½benhavn" ;
+	rdfs:label "FC Kï¿½ï¿½benhavn" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52709" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52709.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "FCK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2600371/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2600371.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "EST" ;
+	dbo:country <http://live.dbpedia.org/resource/Estonia> ;
+	foaf:nick "Kalju" ;
+	rdfs:label "Nï¿½ï¿½mme Kalju FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2600371" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2600371.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "KAL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2601038/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2601038.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "RUS" ;
+	dbo:country <http://live.dbpedia.org/resource/Russia> ;
+	foaf:nick "Krasnodar" ;
+	rdfs:label "FC Krasnodar" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2601038" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2601038.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "KRA" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=63405/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/63405.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "AUT" ;
+	dbo:country <http://live.dbpedia.org/resource/Austria> ;
+	foaf:nick "LASK" ;
+	rdfs:label "LASK" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "63405" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LAS" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2603790/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2603790.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GER" ;
+	dbo:country <http://live.dbpedia.org/resource/Germany> ;
+	foaf:nick "Leipzig" ;
+	rdfs:label "RB Leipzig" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2603790" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2603790.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LEI" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50109/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50109.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GER" ;
+	dbo:country <http://live.dbpedia.org/resource/Germany> ;
+	foaf:nick "Leverkusen" ;
+	rdfs:label "Bayer 04 Leverkusen" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50109" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50109.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "BL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2605572/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2605572.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GIB" ;
+	dbo:country <http://live.dbpedia.org/resource/Gibraltar> ;
+	foaf:nick "Lincoln Red Imps" ;
+	rdfs:label "Lincoln Red Imps FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2605572" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2605572.png> .
+
+<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001134> a <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#Round> ;
+	rdfs:label "Preliminary Round" ;
+	foaf:nick "PR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2605572/#team> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001134> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LRI" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50134/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50134.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "NIR" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FNorthern+Ireland> ;
+	foaf:nick "Linfield" ;
+	rdfs:label "Linfield FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50134" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50134.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LIN" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=7889/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/7889.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ENG" ;
+	dbo:country <http://live.dbpedia.org/resource/England> ;
+	foaf:nick "Liverpool" ;
+	rdfs:label "Liverpool FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "7889" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/7889.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LIV" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=53065/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/53065.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "RUS" ;
+	dbo:country <http://live.dbpedia.org/resource/Russia> ;
+	foaf:nick "Lokomotiv Moskva" ;
+	rdfs:label "FC Lokomotiv Moskva" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "53065" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/53065.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LMO" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=75797/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/75797.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "FRA" ;
+	dbo:country <http://live.dbpedia.org/resource/France> ;
+	foaf:nick "LOSC" ;
+	rdfs:label "LOSC Lille" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "75797" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LIL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2603104/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2603104.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "BUL" ;
+	dbo:country <http://live.dbpedia.org/resource/Bulgaria> ;
+	foaf:nick "Ludogorets" ;
+	rdfs:label "PFC Ludogorets 1945" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2603104" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2603104.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "LUD" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=5312/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/5312.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "FRA" ;
+	dbo:country <http://live.dbpedia.org/resource/France> ;
+	foaf:nick "Lyon" ;
+	rdfs:label "Olympique Lyonnais" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "5312" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/5312.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "OL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=57477/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/57477.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ISR" ;
+	dbo:country <http://live.dbpedia.org/resource/Israel> ;
+	foaf:nick "M. Tel-Aviv" ;
+	rdfs:label "Maccabi Tel-Aviv FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "57477" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/57477.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "MTA" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52919/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52919.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ENG" ;
+	dbo:country <http://live.dbpedia.org/resource/England> ;
+	foaf:nick "Man. City" ;
+	rdfs:label "Manchester City FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52919" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "MC" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=57490/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/57490.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SVN" ;
+	dbo:country <http://live.dbpedia.org/resource/Slovenia> ;
+	foaf:nick "Maribor" ;
+	rdfs:label "NK Maribor" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "57490" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/57490.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "MBR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50136/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50136.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ITA" ;
+	dbo:country <http://live.dbpedia.org/resource/Italy> ;
+	foaf:nick "Napoli" ;
+	rdfs:label "SSC Napoli" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50136" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50136.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "NAP" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2610/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2610.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GRE" ;
+	dbo:country <http://live.dbpedia.org/resource/Greece> ;
+	foaf:nick "Olympiacos" ;
+	rdfs:label "Olympiacos FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2610" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2610.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "OLY" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50130/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50130.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GRE" ;
+	dbo:country <http://live.dbpedia.org/resource/Greece> ;
+	foaf:nick "PAOK" ;
+	rdfs:label "PAOK FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50130" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50130.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "PAO" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52747/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52747.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "FRA" ;
+	dbo:country <http://live.dbpedia.org/resource/France> ;
+	foaf:nick "Paris" ;
+	rdfs:label "Paris Saint-Germain" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52747" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52747.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "PAR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52876/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52876.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ALB" ;
+	dbo:country <http://live.dbpedia.org/resource/Albania> ;
+	foaf:nick "Partizani" ;
+	rdfs:label "FK Partizani" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52876" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52876.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "PAR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2600545/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2600545.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "POL" ;
+	dbo:country <http://live.dbpedia.org/resource/Poland> ;
+	foaf:nick "Piast" ;
+	rdfs:label "GKS Piast Gliwice" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2600545" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2600545.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "PIA" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=64388/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/64388.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "CZE" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FCzech+Republic> ;
+	foaf:nick "Plzeï¿½ï¿½" ;
+	rdfs:label "FC Viktoria Plzeï¿½ï¿½" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "64388" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/64388.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "PLZ" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50064/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50064.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "POR" ;
+	dbo:country <http://live.dbpedia.org/resource/Portugal> ;
+	foaf:nick "Porto" ;
+	rdfs:label "FC Porto" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50064" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50064.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "POR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50062/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50062.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "NED" ;
+	dbo:country <http://live.dbpedia.org/resource/Netherlands> ;
+	foaf:nick "PSV" ;
+	rdfs:label "PSV Eindhoven" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50062" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "PSV" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=60609/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/60609.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "AZE" ;
+	dbo:country <http://live.dbpedia.org/resource/Azerbaijan> ;
+	foaf:nick "Qarabaï¿½ï¿½" ;
+	rdfs:label "Qarabaï¿½ï¿½ FK" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "60609" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/60609.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001138> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "QAR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50051/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50051.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ESP" ;
+	dbo:country <http://live.dbpedia.org/resource/Spain> ;
+	foaf:nick "Real Madrid" ;
+	rdfs:label "Real Madrid CF" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50051" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "RM" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2607924/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2607924.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "LVA" ;
+	dbo:country <http://live.dbpedia.org/resource/Latvia> ;
+	foaf:nick "Riga" ;
+	rdfs:label "Riga FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2607924" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2607924.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "RIG" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52806/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52806.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "NOR" ;
+	dbo:country <http://live.dbpedia.org/resource/Norway> ;
+	foaf:nick "Rosenborg" ;
+	rdfs:label "Rosenborg BK" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52806" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52806.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "RBK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=79557/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/79557.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "LTU" ;
+	dbo:country <http://live.dbpedia.org/resource/Lithuania> ;
+	foaf:nick "Sï¿½ï¿½duva" ;
+	rdfs:label "FK Sï¿½ï¿½duva" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "79557" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/79557.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SUD" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2605905/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/2605905.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "GEO" ;
+	dbo:country <http://live.dbpedia.org/resource/Georgia> ;
+	foaf:nick "Saburtalo" ;
+	rdfs:label "FC Saburtalo" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "2605905" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/2605905.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SAB" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50030/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50030.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "AUT" ;
+	dbo:country <http://live.dbpedia.org/resource/Austria> ;
+	foaf:nick "Salzburg" ;
+	rdfs:label "FC Salzburg" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50030" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50030.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SBG" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=64378/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/64378.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "BIH" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FBosnia+and+Herzegovina> ;
+	foaf:nick "Sarajevo" ;
+	rdfs:label "FK Sarajevo" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "64378" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/64378.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SAR" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52707/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52707.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "UKR" ;
+	dbo:country <http://live.dbpedia.org/resource/Ukraine> ;
+	foaf:nick "Shakhtar Donetsk" ;
+	rdfs:label "FC Shakhtar Donetsk" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52707" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SHK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=69606/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/69606.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "MDA" ;
+	dbo:country <http://live.dbpedia.org/resource/Moldova> ;
+	foaf:nick "Sheriff" ;
+	rdfs:label "FC Sheriff Tiraspol" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "69606" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/69606.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SHF" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=75807/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/75807.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "MKD" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FNorth+Macedonia> ;
+	foaf:nick "Shkï¿½ï¿½ndija" ;
+	rdfs:label "KF Shkï¿½ï¿½ndija" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "75807" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/75807.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SHK" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52498/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52498.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "CZE" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FCzech+Republic> ;
+	foaf:nick "Slavia Praha" ;
+	rdfs:label "SK Slavia Praha" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52498" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52498.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SLP" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52797/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52797.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SVK" ;
+	dbo:country <http://live.dbpedia.org/resource/Slovakia> ;
+	foaf:nick "Slovan Bratislava" ;
+	rdfs:label "ï¿½ï¿½K Slovan Bratislava" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52797" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52797.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SVB" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=64515/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/64515.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SMR" ;
+	dbo:country <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#http%3A%2F%2Flive.dbpedia.org%2Fresource%2FSan+Marino> ;
+	foaf:nick "SP Tre Penne" ;
+	rdfs:label "SP Tre Penne" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "64515" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/64515.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001134> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "TRE" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=73936/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/73936.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "MNE" ;
+	dbo:country <http://live.dbpedia.org/resource/Montenegro> ;
+	foaf:nick "Sutjeska" ;
+	rdfs:label "FK Sutjeska" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "73936" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/73936.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "SUT" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=60457/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/60457.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "WAL" ;
+	dbo:country <http://live.dbpedia.org/resource/Wales> ;
+	foaf:nick "TNS" ;
+	rdfs:label "The New Saints FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "60457" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/60457.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "TNS" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=1652/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/1652.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ENG" ;
+	dbo:country <http://live.dbpedia.org/resource/England> ;
+	foaf:nick "Tottenham" ;
+	rdfs:label "Tottenham Hotspur" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "1652" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/1652.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "TOT" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52268/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52268.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ESP" ;
+	dbo:country <http://live.dbpedia.org/resource/Spain> ;
+	foaf:nick "Valencia" ;
+	rdfs:label "Valencia CF" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52268" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52268.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "VAL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52641/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52641.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "MLT" ;
+	dbo:country <http://live.dbpedia.org/resource/Malta> ;
+	foaf:nick "Valletta" ;
+	rdfs:label "Valletta FC" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52641" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52641.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001137> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "VAL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50057/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50057.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "ISL" ;
+	dbo:country <http://live.dbpedia.org/resource/Iceland> ;
+	foaf:nick "Valur" ;
+	rdfs:label "Valur" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50057" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50057.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001136> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "VAL" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50031/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/50031.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "SUI" ;
+	dbo:country <http://live.dbpedia.org/resource/Switzerland> ;
+	foaf:nick "Young Boys" ;
+	rdfs:label "BSC Young Boys" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "50031" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/50031.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001139> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "YB" .
+
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52826/#team> a schema:SportsTeam ;
+	foaf:depiction <https://img.uefa.com/imgml/TP/teams/logos/700x700/52826.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#countryCode> "RUS" ;
+	dbo:country <http://live.dbpedia.org/resource/Russia> ;
+	foaf:nick "Zenit" ;
+	rdfs:label "FC Zenit" ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#id> "52826" ;
+	schema:logo <https://img.uefa.com/imgml/TP/teams/logos/70x70/52826.png> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#lastRound> <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#2001140> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#seasonYear> "2020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#teamCode> "ZEN" .
