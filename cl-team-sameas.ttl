@@ -1,134 +1,70 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dbo: <http://live.dbpedia.org/ontology/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<http://live.dbpedia.org/resource/Liverpool_F.C.>
+<http://live.dbpedia.org/resource/AFC_Ajax> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50143/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
+<http://live.dbpedia.org/resource/Atalanta_B.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52816/#team> .
 
-<http://live.dbpedia.org/resource/Chelsea_F.C.>
+<http://live.dbpedia.org/resource/Atl%c3%a9tico_Madrid> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50124/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
+<http://live.dbpedia.org/resource/Bayer_04_Leverkusen> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50109/#team> .
 
-<http://live.dbpedia.org/resource/FC_Barcelona>
+<http://live.dbpedia.org/resource/Borussia_Dortmund> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52758/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
+<http://live.dbpedia.org/resource/Chelsea_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52914/#team> .
 
-<http://live.dbpedia.org/resource/Manchester_City_F.C.>
+<http://live.dbpedia.org/resource/Club_Brugge_KV> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50043/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
+<http://live.dbpedia.org/resource/FC_Barcelona> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50080/#team> .
 
-<http://live.dbpedia.org/resource/Juventus_F.C.>
+<http://live.dbpedia.org/resource/FC_Bayern_Munich> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50037/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
+<http://live.dbpedia.org/resource/FC_Lokomotiv_Moscow> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=53065/#team> .
 
-<http://live.dbpedia.org/resource/FC_Bayern_Munich>
+<http://live.dbpedia.org/resource/FC_Red_Bull_Salzburg> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50030/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
+<http://live.dbpedia.org/resource/FC_Shakhtar_Donetsk> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52707/#team> .
 
-<http://live.dbpedia.org/resource/Paris_Saint-Germain_F.C.>
+<http://live.dbpedia.org/resource/FC_Zenit_Saint_Petersburg> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52826/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Ligue_1> .
+<http://live.dbpedia.org/resource/Galatasaray_S.K._(football)> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50067/#team> .
 
-<http://live.dbpedia.org/resource/FC_Zenit_Saint_Petersburg>
+<http://live.dbpedia.org/resource/GNK_Dinamo_Zagreb> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50164/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Russian_Football_Premier_League> .
+<http://live.dbpedia.org/resource/Inter_Milan> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50138/#team> .
 
-<http://live.dbpedia.org/resource/Real_Madrid_CF>
+<http://live.dbpedia.org/resource/Juventus_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50139/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
+<http://live.dbpedia.org/resource/K.R.C._Genk> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=61582/#team> .
 
-<http://live.dbpedia.org/resource/Atl%C3%A9tico_Madrid>
+<http://live.dbpedia.org/resource/Lille_OSC> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=75797/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
+<http://live.dbpedia.org/resource/Liverpool_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=7889/#team> .
 
-<http://live.dbpedia.org/resource/Borussia_Dortmund>
+<http://live.dbpedia.org/resource/Manchester_City_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52919/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
+<http://live.dbpedia.org/resource/Olympiacos_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2610/#team> .
 
-<http://live.dbpedia.org/resource/S.S.C._Napoli>
+<http://live.dbpedia.org/resource/Olympique_Lyonnais> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=5312/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
+<http://live.dbpedia.org/resource/Paris_Saint-Germain_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52747/#team> .
 
-<http://live.dbpedia.org/resource/FC_Shakhtar_Donetsk>
+<http://live.dbpedia.org/resource/RB_Leipzig> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=2603790/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Ukranian_Premier_League> .
+<http://live.dbpedia.org/resource/Real_Madrid_CF> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50051/#team> .
 
-<http://live.dbpedia.org/resource/Tottenham_Hotspur_F.C.>
+<http://live.dbpedia.org/resource/Red_Star_Belgrade> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50069/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Premier_League> .
+<http://live.dbpedia.org/resource/S.L._Benfica> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50147/#team> .
 
-<http://live.dbpedia.org/resource/AFC_Ajax>
+<http://live.dbpedia.org/resource/S.S.C._Napoli> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=50136/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Eredivisie> .
+<http://live.dbpedia.org/resource/SK_Slavia_Prague> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52498/#team> .
 
-<http://live.dbpedia.org/resource/S.L._Benfica>
+<http://live.dbpedia.org/resource/Tottenham_Hotspur_F.C.> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=1652/#team> .
 
-	dbo:league <http://live.dbpedia.org/resource/Primera_Liga> .
-
-<http://live.dbpedia.org/resource/Olympique_Lyonnais>
-
-	dbo:league <http://live.dbpedia.org/resource/Ligue_1> .
-
-<http://live.dbpedia.org/resource/Bayer_04_Leverkusen>
-
-	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
-
-<http://live.dbpedia.org/resource/FC_Red_Bull_Salzburg>
-
-	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
-
-<http://live.dbpedia.org/resource/Olympiacos_F.C.>
-
-	dbo:league <http://live.dbpedia.org/resource/Superleague_Greece> .
-
-<http://live.dbpedia.org/resource/Club_Brugge_KV>
-
-	dbo:league <http://live.dbpedia.org/resource/Club_Brugge_KV> .
-
-<http://live.dbpedia.org/resource/Valencia_CF>
-
-	dbo:league <http://live.dbpedia.org/resource/La_Liga> .
-
-<http://live.dbpedia.org/resource/Inter_Milan>
-
-	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
-
-<http://live.dbpedia.org/resource/GNK_Dinamo_Zagreb>
-
-	dbo:league <http://live.dbpedia.org/resource/Croatian_First_Football_League> .
-
-<http://live.dbpedia.org/resource/FC_Lokomotiv_Moscow>
-
-	dbo:league <http://live.dbpedia.org/resource/Russian_Football_Premier_League> .
-
-<http://live.dbpedia.org/resource/K.R.C._Genk>
-
-	dbo:league <http://live.dbpedia.org/resource/Belgian_First_Division_A> .
-
-<http://live.dbpedia.org/resource/Galatasaray_S.K._(football)>
-
-	dbo:league <http://live.dbpedia.org/resource/Super_Lig> .
-
-<http://live.dbpedia.org/resource/RB_Leipzig>
-
-	dbo:league <http://live.dbpedia.org/resource/Bundesliga> .
-
-<http://live.dbpedia.org/resource/SK_Slavia_Prague>
-
-	dbo:league <http://live.dbpedia.org/resource/Czech_First_League> .
-
-<http://live.dbpedia.org/resource/Red_Star_Belgrade>
-
-	dbo:league <http://live.dbpedia.org/resource/Serbian_SuperLiga> .
-
-<http://live.dbpedia.org/resource/Atalanta_B.C.>
-
-	dbo:league <http://live.dbpedia.org/resource/Serie_A> .
-
-<http://live.dbpedia.org/resource/Lille_OSC>
-
-	dbo:league <http://live.dbpedia.org/resource/Ligue_1> .
+<http://live.dbpedia.org/resource/Valencia_CF> owl:sameAs <https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52268/#team> .
