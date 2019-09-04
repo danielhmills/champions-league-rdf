@@ -7,23 +7,30 @@ SPARQL ALTER QUAD STORAGE virtrdf:DefaultQuadStorage { DETACH MACRO LIBRARY <spi
 --Test Query
 
 SPARQL
-DEFINE get:soft "replace"
-DEFINE input:grab-var "?s"
-DEFINE input:grab-depth 1
+prefix cl: <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#>
+prefix dbo: <http://live.dbpedia.org/ontology/>
 
-SELECT DISTINCT 
-?s 
+SELECT DISTINCT ?team1 ?team2
 
+WHERE
 
-FROM <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl>
 {
-    ?s 
-    a <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team>; 
-    <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#hasGroup> ?group.
+?team1 a schema:SportsTeam;
+cl:hasGroup ?group1;
+cl:inPot ?pot1;
+^owl:sameAs ?dbpTeam1.
 
+?dbpTeam1 dbo:league ?league1.
 
+?team2 a schema:SportsTeam;
+cl:hasGroup ?group2;
+cl:inPot ?pot2;
+^owl:sameAs ?dbpTeam2.
+
+?dbpTeam2 dbo:league ?league2
+
+FILTER(?group1 != ?group2 && ?pot1 != ?pot2 && ?league1 != ?league2)
 };
-
 
 
 
@@ -37,40 +44,40 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 WITH <spin:rule:inference:cl-draw>
 INSERT{
-        <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team> a owl:Class;
+        schema:SportsTeam a owl:Class;
         rdfs:label "Champions League 2019 Team";
         rdfs:comment """This Rule ensures that teams identified""";
 
         spin:rule[
                     a sp:Construct;
                     sp:text """
-                                PREFIX dbo: <http://live.dbpedia.org/ontology/> 
-                                PREFIX : <#>
+                                prefix cl: <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#>
+                                prefix dbo: <http://live.dbpedia.org/ontology/>
 
-                                CONSTRUCT {?team1 :canPlay ?team2}
+                                CONSTRUCT {
+                                            ?team1 cl:canPlay ?team2
+                                           }
+
                                 WHERE
+
                                     {
-                                        ?team1 
-                                        a <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team>;
-                                        <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#hasGroup> ?groupA;
-                                        dbo:league ?league.
-										
-                                        ?team2 
-                                        a <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team>;
-                                        <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#hasGroup> ?groupB;
-                                        dbo:league ?league2.
+                                        ?team1 a schema:SportsTeam;
+                                        cl:hasGroup ?group1;
+                                        cl:inPot ?pot1;
+                                        ^owl:sameAs ?dbpTeam1.
 
-                                        FILTER NOT EXISTS
-                                            {
-                                                ?team2 dbo:league ?league.
-                                            }
+                                        ?dbpTeam1 dbo:league ?league1.
 
-                                        FILTER NOT EXISTS
-                                            {
-                                                ?team2 <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#hasGroup> ?groupA.
-                                            }
+                                        ?team2 a schema:SportsTeam;
+                                        cl:hasGroup ?group2;
+                                        cl:inPot ?pot2;
+                                        ^owl:sameAs ?dbpTeam2.
+
+                                        ?dbpTeam2 dbo:league ?league2.
+
+                                        FILTER(?group1 != ?group2 && ?pot1 != ?pot2 && ?league1 != ?league2).
                                     }
- 
+
                             """
                      
                 ]
@@ -82,22 +89,25 @@ EXEC ('SPARQL ' || SPARQL_SPIN_GRAPH_TO_DEFSPIN('spin:rule:inference:cl-draw'));
 --Test 01: With Rule
 SPARQL
 DEFINE input:macro-lib 'spin:rule:inference:cl-draw'
-PREFIX : <#>
-SELECT DISTINCT ?team
+PREFIX cl: <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#>
+
+SELECT DISTINCT ?team2
 #FROM <demo:inference:aggregates>
 WHERE 
 {
-<http://live.dbpedia.org/resource/Liverpool_F.C.> a <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team>; :canPlay ?team.
+?team1 a schema:SportsTeam; cl:canPlay ?team2.
 };
 
 
 --Test 02: Without Rule
 SPARQL
+#DEFINE input:macro-lib 'spin:rule:inference:cl-draw'
 PREFIX : <#>
-SELECT ?team
+PREFIX cl: <https://raw.githubusercontent.com/danielhmills/champions-league-rdf/master/cl-ontology.ttl#>
+
+SELECT DISTINCT ?team
 #FROM <demo:inference:aggregates>
 WHERE 
 {
-<http://live.dbpedia.org/resource/Liverpool_F.C.> a <https://github.com/danielhmills/champions-league-rdf/raw/master/cl-2019-draw.ttl#ChampionsLeague2019Team>; :canPlay ?team.
+<https://www.uefa.com/uefachampionsleague/season=2020/clubs/club=52816/#team> a schema:SportsTeam; cl:canPlay ?team.
 };
-
